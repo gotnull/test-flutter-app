@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test/screens/card_tile_screen.dart';
 import 'package:test/screens/form_builder_screen.dart';
 import 'package:test/screens/list_tile_screen.dart';
 
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const FormBuilderScreen(title: 'Form Builder'),
+      home: const CardTileScreen(title: 'Card Tile'),
     );
   }
 }
